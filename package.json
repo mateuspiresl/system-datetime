@@ -1,0 +1,24 @@
+{
+  "name": "system-datetime",
+  "version": "0.0.1",
+  "description": "A node.js package to manage the system's date and time",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mateuspiresl/set-system-timezone"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "system",
+    "timezone",
+    "time",
+    "zone",
+    "linux"
+  ],
+  "author": "Mateus Pires <mateusplpl@gmail.com>",
+  "dependencies": {
+  }
+}
