@@ -1,6 +1,6 @@
 {
   "name": "system-datetime",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A node.js package to manage the system's date and time",
   "license": "MIT",
   "repository": {

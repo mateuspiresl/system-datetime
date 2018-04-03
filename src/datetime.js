@@ -7,7 +7,7 @@ const { exec } = require('child_process');
 exports.get = function (datetime)
 {
   return new Promise((resolve, reject) =>{
-    const process = exec('date "+%d/%m/%Y %H:%M:%S"', (error, stdout, stderr) => {
+    const process = exec('date "+%F %T"', (error, stdout, stderr) => {
       if (error) return reject(error);
       if (stderr) return reject(stderr);
 
