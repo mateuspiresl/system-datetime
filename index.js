@@ -1,4 +1,2 @@
-module.exports = {
-  datetime: require('./src/datetime'),
-  timezone: require('./src/timezone')
-};
+exports.datetime = require('./src/datetime');
+exports.timezone = require('./src/timezone');
