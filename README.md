@@ -1,6 +1,6 @@
 # SystemDatetime
 
-_**ALERT**: The settings methods requires **super user permission**. This package is not suitable for the most of the applications._
+_**ALERT**: Setting methods require **superuser permission**. This package is not suitable for most applications._
 
 How to use:
 
