@@ -33,3 +33,20 @@ exports.set = function (datetime)
     });
   });
 };
+
+/**
+ * Persist the system time in hardware using 'hwclock'.
+ * Requires super use permission.
+ * @returns {String} The 'hwclock' output.
+ */
+exports.persistInHardware = function ()
+{
+  return new Promise((resolve, reject) =>{
+    const process = exec('sudo hwclock -w', (error, stdout, stderr) => {
+      if (error) return reject(error);
+      if (stderr) return reject(stderr);
+      
+      resolve(stdout);
+    });
+  });
+};
